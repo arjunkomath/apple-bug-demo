@@ -18,6 +18,7 @@ struct DetailView: View {
             SheetView()
         }
         .navigationTitle("Detail")
+        .navigationDisplayMode(.big)
         .toolbar {
             ToolbarItemGroup(placement: .bottomBar) {
                 Button("Third") {
