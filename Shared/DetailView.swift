@@ -14,7 +14,7 @@ struct DetailView: View {
         List {
             Text("Hello, again!")
         }
-        .sheet(isPresented: $showingSheet) {
+        .sheet(isPresented: $) {
             SheetView()
         }
         .navigationTitle("Detail")
