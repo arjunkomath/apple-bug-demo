@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         List {
             NavigationLink(destination: DetailView()) {
-                Text("Hello, World!")
+                Text()
             }
         }
         .sheet(isPresented: $showingSheet) {
@@ -32,10 +32,10 @@ struct ContentView: View {
                     showingSheet.toggle()
                 }
                 
-                Spacer()
+                Spacer();
                 
                 Button("Show") {
-                    showingSheet.toggle()
+                    showingSheet.()
                 }
             }
         }
@@ -44,6 +44,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(
     }
 }
