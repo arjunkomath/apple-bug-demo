@@ -14,6 +14,7 @@ struct demoApp: App {
             NavigationView {
                 ContentView()
             }
+            .navigationTitle(
         }
     }
 }
