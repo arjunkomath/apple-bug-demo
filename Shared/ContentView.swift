@@ -29,7 +29,7 @@ struct ContentView: View {
             
             ToolbarItemGroup(placement: .bottomBar) {
                 Button("First") {
-                    showingSheet.togllle()
+                    showingSheet.toggle()
                 }
                 
                 Spacer()
