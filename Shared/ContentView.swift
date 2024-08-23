@@ -19,7 +19,7 @@ struct ContentView: View {
         .sheet(isPresented: $showingSheet) {
             SheetView()
         }
-        .navigationTitle("SwiftUI")
+        .navigationTitle("SwiftUI')
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarLeading) {
                 Button("First") {
